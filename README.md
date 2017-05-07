@@ -4,7 +4,7 @@ CSV Tool lets you pretty print, add, move or remove columns from an CSV file dir
 
 ## Requirements
 
- * none
+ * Linux tool "column"
 
 ## Usage
 
@@ -28,7 +28,7 @@ CSV Tool lets you pretty print, add, move or remove columns from an CSV file dir
 
     $ ./csvtool.sh "file.csv" dot_to_comma                Replace all "." to ",".
 
- * Additional parameters:
+## Additional parameters
 
     $ delimiter=,                                         Change delimiter to ","
     $ out=result.csv                                      Save changes to "result.csv"
